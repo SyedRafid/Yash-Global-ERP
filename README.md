@@ -129,7 +129,7 @@ cd Yash-Global-ERP
 
 ### 📂 2. Importing the Database using phpMyAdmin
 
-This project uses a MySQL database named **`rposystem`**. To set it up locally, follow these steps:
+This project uses a MySQL database named **`erpsystem`**. To set it up locally, follow these steps:
 
 1. **Create the Database:**
 
@@ -137,16 +137,16 @@ This project uses a MySQL database named **`rposystem`**. To set it up locally, 
    - Click on the **Databases** tab.
    - In the "Create database" field, enter the name:
      ```
-     rposystem
+     erpsystem
      ```
    - Choose the collation (e.g., `utf8mb4_general_ci`) and click **Create**.
 
 2. **Import the SQL File:**
 
-   - Click on the newly created `rposystem` database in phpMyAdmin.
+   - Click on the newly created `erpsystem` database in phpMyAdmin.
    - Go to the **Import** tab.
    - Click **Choose File** and browse to the project folder's `database` directory.
-   - Select the SQL file (e.g., `rposystem.sql`).
+   - Select the SQL file (e.g., `erpsystem.sql`).
    - Click **Go** at the bottom to start the import.
    - Wait for the success message confirming the import.
 
