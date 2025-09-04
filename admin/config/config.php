@@ -3,6 +3,6 @@
     $dbuser="root";
     $dbpass="";
     $host="localhost";
-    $db="rposystem";
+    $db= "erpsystem";
     $mysqli=new mysqli($host,$dbuser, $dbpass, $db);
 ?>
